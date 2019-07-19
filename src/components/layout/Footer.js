@@ -5,6 +5,9 @@ export default class Footer extends Component {
     return (
       <div>
         <footer className="main-footer">
+          <div className="pull-right hidden-xs">
+            <b>Version</b> 2.4.13
+          </div>
           <strong>
             Copyright ©2019 <a href="#">BookTranspo</a>.
           </strong>{" "}
