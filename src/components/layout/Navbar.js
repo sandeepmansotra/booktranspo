@@ -311,7 +311,7 @@ export default class Navbar extends Component {
                       className="user-image"
                       alt="User Image"
                     />
-                    <span className="hidden-xs">Alexander Pierce</span>
+                    <span className="hidden-xs">Vinay Pandey</span>
                   </a>
                   <ul className="dropdown-menu">
                     {/* User image */}
@@ -322,8 +322,8 @@ export default class Navbar extends Component {
                         alt="User Image"
                       />
                       <p>
-                        Alexander Pierce - Web Developer
-                        <small>Member since Nov. 2012</small>
+                        Vinay Pandey - The Founder
+                        <small>Founder since 2019</small>
                       </p>
                     </li>
                     {/* Menu Body */}
@@ -357,11 +357,6 @@ export default class Navbar extends Component {
                   </ul>
                 </li>
                 {/* Control Sidebar Toggle Button */}
-                <li>
-                  <a href="/" data-toggle="control-sidebar">
-                    <i className="fa fa-gears" />
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>

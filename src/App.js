@@ -13,7 +13,12 @@ function App() {
       <div>
         <Navbar />
         <Menu />
-        <Route path="/dashboard" component={Dashboard} />
+        <Switch>
+          <Route exact path="/" component={Dashboard} />
+        </Switch>
+        <Switch>
+          <Route exact path="/dashboard" component={Dashboard} />
+        </Switch>
         <Footer />
       </div>
     </Router>
