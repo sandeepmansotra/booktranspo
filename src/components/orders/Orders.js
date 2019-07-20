@@ -129,7 +129,7 @@ export default class Orders extends Component {
                     </div>
                     <div className="row">
                       {/* ./col */}
-                      <div className="col-md-2 col-xs-1">
+                      <div className="col-md-2 col-xs-6">
                         {/* small box */}
                         <div className="small-box bg-yellow">
                           <div className="inner">
@@ -158,7 +158,7 @@ export default class Orders extends Component {
                         </div>
                       </div>
 
-                      <div className="col-xs-2">
+                      <div className="col-md-2 col-xs-6">
                         {/* small box */}
                         <div className="small-box bg-green">
                           <div className="inner">
