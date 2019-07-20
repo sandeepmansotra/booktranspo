@@ -7,7 +7,7 @@ export default class Menu extends Component {
       <div>
         <aside className="main-sidebar">
           {/* sidebar: style can be found in sidebar.less */}
-          <section className="sidebar">
+          <section className="sidebar" id="#skin-blue-light">
             {/* Sidebar user panel */}
             <div className="user-panel">
               <div className="pull-left image">

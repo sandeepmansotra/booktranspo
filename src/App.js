@@ -6,6 +6,7 @@ import Navbar from "./components/layout/Navbar";
 import Menu from "./components/layout/Menu";
 import Footer from "./components/layout/Footer";
 import Dashboard from "./components/dashboard/Dashboard";
+import Orders from "./components/orders/Orders";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </Switch>
         <Switch>
           <Route exact path="/dashboard" component={Dashboard} />
+        </Switch>
+        <Switch>
+          <Route exact path="/orders" component={Orders} />
         </Switch>
         <Footer />
       </div>
