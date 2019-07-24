@@ -81,7 +81,7 @@ export default class Menu extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/users/manage">
+                    <Link to="/manage">
                       <i className="fa fa-circle-o" /> Manage
                     </Link>
                   </li>
@@ -97,7 +97,7 @@ export default class Menu extends Component {
                 </Link>
                 <ul className="treeview-menu">
                   <li>
-                    <Link to="/goods/groups">
+                    <Link to="/categories">
                       <i className="fa fa-circle-o" /> Category
                     </Link>
                   </li>
@@ -128,7 +128,7 @@ export default class Menu extends Component {
                 </Link>
                 <ul className="treeview-menu">
                   <li>
-                    <Link to="/goods/groups">
+                    <Link to="/transport">
                       <i className="fa fa-circle-o" /> Transport
                     </Link>
                   </li>
@@ -166,8 +166,8 @@ export default class Menu extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/driver">
-                  <i className="fa fa-car" /> <span>Driver</span>
+                <Link to="/drivers">
+                  <i className="fa fa-car" /> <span>Drivers</span>
                   <span className="pull-right-container" />
                 </Link>
               </li>
@@ -181,7 +181,7 @@ export default class Menu extends Component {
                 </Link>
                 <ul className="treeview-menu">
                   <li>
-                    <Link to="/goods/groups">
+                    <Link to="/">
                       <i className="fa fa-circle-o" /> Transport
                     </Link>
                   </li>
@@ -207,7 +207,7 @@ export default class Menu extends Component {
                 </Link>
                 <ul className="treeview-menu">
                   <li>
-                    <Link to="/goods/groups">
+                    <Link to="/role">
                       <i className="fa fa-circle-o" /> Role
                     </Link>
                   </li>
